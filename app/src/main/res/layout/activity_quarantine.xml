@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0F172A"> <!-- Slate 900 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:padding="32dp">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/bg_surface_circle" 
+            android:backgroundTint="#EF4444"
+            android:layout_marginBottom="24dp"/>
+            <!-- In real app, put a vector shield or lock icon here -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="THREAT ISOLATED"
+            android:textColor="#FFFFFF"
+            android:textSize="28sp"
+            android:letterSpacing="0.1"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtWarning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="24dp"
+            android:gravity="center"
+            android:text="Malicious activity detected from app: UNKNOWN"
+            android:textColor="#F8FAFC"
+            android:textSize="18sp" 
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:text="This application attempted to bypass security protocols to harvest your credentials. For your safety, the device features have been locked until this threat is removed."
+            android:textColor="#94A3B8"
+            android:textSize="14sp" 
+            android:lineSpacingMultiplier="1.4"/>
+            
+        <View 
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#334155" 
+            android:layout_marginVertical="32dp"/>
+
+        <Button
+            android:id="@+id/btnUninstall"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:backgroundTint="#EF4444"
+            android:text="UNINSTALL APPLICATION"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:elevation="4dp"/>
+
+    </LinearLayout>
+</FrameLayout>

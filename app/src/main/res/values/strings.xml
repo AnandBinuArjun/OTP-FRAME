@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">OTP-FRAME</string>
+    <string name="accessibility_service_description">OTP-FRAME Enterprise Security Sensor. Monitors OS events to detect financial malware and prevent OTP theft.</string>
+</resources>
