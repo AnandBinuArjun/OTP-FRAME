@@ -105,7 +105,7 @@ sequenceDiagram
 
     ```bash
     # Open Android Studio -> Open -> Select Project Folder
-    c:\Users\anand\Downloads\test_app
+    https://github.com/AnandBinuArjun/OTP-FRAME
     ```
 
 2. **Sync Gradle**:
@@ -145,3 +145,4 @@ The security engine acts as a system-level guardian. On first launch, you **must
 ---
 
 **© 2025 OTP-FRAME Project. Developed by ANAND BINU ARJUN.**
+
